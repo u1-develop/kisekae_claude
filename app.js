@@ -254,7 +254,7 @@ function VirtualTryOn() {
         <div className="container">
             <header>
                 <h1>AI Virtual Try-On</h1>
-                <p className="subtitle">Gemini 2.5 Flash で簡単バーチャル試着体験</p>
+                <p className="subtitle">バーチャル試着体験@Gemini 2.5 Flash Image</p>
             </header>
 
             <div className="api-key-section">
@@ -326,7 +326,7 @@ function VirtualTryOn() {
                 <div className="upload-card">
                     <h2 className="card-title">
                         <span className="card-icon">2</span>
-                        試着する服
+                        試着する服を選択
                     </h2>
                     <div className="clothing-grid">
                         {CLOTHING_IMAGES.map((img, index) => (
