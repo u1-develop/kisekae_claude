@@ -389,7 +389,7 @@ function VirtualTryOn() {
                             生成中<span className="loading">⏳</span>
                         </>
                     ) : (
-                        '🎨 画像を生成'
+                        '画像を生成'
                     )}
                 </button>
                 {error && (
